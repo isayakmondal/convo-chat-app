@@ -1,0 +1,201 @@
+/* Global */
+
+* {
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+div{
+  border: 0px !important;
+  /* background-color: #323437 ; */
+}
+img{
+  border: 0px !important;
+}
+
+
+/* Chats Page */
+
+.chats-page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 66px;
+  background-color: #212326;
+}
+
+.logo-tab {
+  position: absolute;
+  left: 22px;
+  top: 12px;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.logout-tab {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Login Page */
+
+#login-page {
+  background-image: linear-gradient(#575757, #000000);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#login-card {
+  position: relative;
+  top: calc(50vh - 144px);
+  left: calc(50vw - 210px);
+  padding-top: 36px;
+  padding-bottom: 66px;
+  width: 420px;
+  text-align: center;
+  background-color: white;
+  border-radius: 22px;
+}
+
+.login-button {
+  cursor: pointer;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.google {
+  background-color: #4285f4;
+  color: white;
+}
+
+#loading-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(255, 255, 255, 0.22);
+}
+
+#loading-icon {
+  font-size: 66px;
+  position: relative;
+  left: calc(50vw - 33px);
+  top: calc(50vh - 22px);
+}
+
+/* Customs CSS for dark mode */
+
+.ce-primary-button {
+  background-color: black !important;
+}
+.nav-bar{
+  background-color: black !important;
+}
+
+.ce-chats-container{
+  background-color: #212326 !important;
+  color: white;
+  ;
+}
+.ce-chat-list{
+  background-color: #212326 !important;
+  border-right: 0!important;
+}
+.ce-chat-form-container{
+  background-color: #282A2D !important;
+  padding: 24px 14px !important;
+}
+.ce-active-chat-card{
+  background-color: #525151 !important;
+}
+.ce-chat-feed-container{
+  background-color: #282A2D !important;
+}
+.ce-chat-title-container{
+  background-color: #212326 !important;
+}
+.ce-message-date-text{
+  color:#8B8C8D !important;
+}
+.ce-their-message-sender{
+  color:#8B8C8D !important;
+}
+.ce-my-message-bubble{
+  background-color: #202224 !important;
+}
+.ce-their-message-bubble{
+  background-color: #333538 !important;
+  color: white !important;
+}
+.ce-settings{
+  background-color: #212326 !important;
+  border: 0px !important;
+}
+.ql-editor{
+  background-color: #323437 !important;
+  color: white;
+  border: 0px !important;
+  
+}
+.ql-toolbar {
+  background-color: #323437 !important;
+  color: white;
+}
+.ce-chat-title{
+  background-color: #212326 !important;
+}
+/* .ce-input {
+  background-color: black!important;
+  color:  white;
+  
+} */
+.ce-text-input{
+  background-color: black!important;
+  color:  white;
+  /* padding-bottom: 10px !important; */
+  /* border-bottom: 100px !important; */
+  
+}
+.ce-section-title-container{
+  background-color: #212326 !important;
+  color:  white;
+}
+#ce-options-drop-down{
+  background-color: #212326 !important;
+  color:  white;
+}
+.ce-person-container{
+  color: white;
+}
+.ce-their-message-timestamp{
+  color:#8B8C8D !important;
+}
+.ce-autocomplete-options{
+  background-color: #212326 !important;
+  
+}
